@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Company Registration</title>
+  </head>
+  <body>
+    
+    <!-- Header -->
+
+
+    <div class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white">
+        <a class="navbar-brand" href="index.html"><img src="UniLogo.png" width="90px"></a>
+        <a class="navbar-brand" href="index.html">|</a>
+        <a class="navbar-brand" href="index.html">Placement Cell</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item  mr-4">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="History.html">History</a>
+            </li>
+            <li class="nav-item active dropdown mr-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Registration
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="StudentReg.html">Student</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="CompanyReg.html">Company</a>
+              </div>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-denger my-2 my-sm-0" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+
+<!-- form -->
+
+
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 p-0">
+      <img src="companyreg.jpeg" alt="" width="100%" >
+    </div>
+    <div class="col-md-6">
+      
+      <form>
+          <div class="font-weight-bold">
+            <p>Company Details..</p>
+          </div>
+          <div class="form-group ">
+              <label for="name">Name :</label>
+              <input type="text" class="form-control" name="name" placeholder="Full Name" id="name" required="">
+          </div>
+            <div class="form-group">
+            <label for="inputAddress2">Address :</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-6">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required="">
+            </div>
+            <div class="form-group col-6">
+                <label for="contactno">Contact No. :</label>
+                <input type="number" class="form-control" id="contactno" required="">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">Owner Name :</label>
+                <input type="text" class="form-control" name="name" placeholder="Full Name" id="name" required="">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="contactno">Owner Contact No. :</label>
+                <input type="number" class="form-control" id="contactno" required="">
+            </div>
+          </div>
+          <div class="form-group ">
+              <label for="regno">Registration No. :</label>
+              <input type="number" class="form-control" id="regno" required="">
+          </div>
+          <div class="form-group">
+            <label for="bd">Established year :</label>
+            <input type="text" placeholder="YYYY" class="form-control" name="bd" id="bd" required="">            
+          </div>
+          <div class="font-weight-bold">
+            <p>Company Employee Requirements & Details..</p>
+          </div>
+          <div class="form-group">
+            <label for="empno">Current Employee No. :</label>
+            <input type="number" class="form-control" id="empno" required="">
+          </div>
+          <div class="form-group">
+                <label for="contactno">Employee Required :</label>
+                <input type="number" class="form-control" id="contactno" required="">
+            </div>
+            <div class="form-group ">
+              <label for="name">Min Qualification Required :</label>
+              <input type="text" class="form-control" name="name" placeholder="Full Qualification Type" id="name" required="">
+            </div>
+            <div class="form-group ">
+              <label for="name"> Required Experience  :</label>
+              <input type="text" class="form-control" name="name" placeholder="Full Name" id="name" required="">
+            </div>
+            <div class="form-group">
+              <label for="rs">Package Starting Given By (Aprx.):</label>
+              <input type="text" placeholder="5,00,000-6,00,000" class="form-control" name="rs" id="rs" required="">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+
+<footer class="footer">
+  <div class="container bottom_border">
+    <div class="row">
+      <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p><i class="fa fa-location-arrow"></i> +xx xxxxxxxxxx </p>
+        <p><i class="fa fa-phone"></i>  +xx xxxxxxxxxx  </p>
+        <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+      </div>
+    <div class=" col-sm-4 col-md  col-6 col">
+      <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+      <ul class="footer_ul_amrc">
+      <li><a href="#">University</a></li>
+      <li><a href="#">Students Area</a></li>
+      <li><a href="#">Company Area</a></li>
+      <li><a href="#">NewsFeed</a></li>
+      <li><a href="#">Notice</a></li>
+      </ul>
+    </div>
+    <div class=" col-sm-4 col-md  col-6 col">
+      <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+      <ul class="footer_ul_amrc">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="History.html">History</a></li>
+      <li><a href="StudentReg.html">Student Registration</a></li>
+      <li><a href="CompanyReg.html">Company Registration</a></li>
+      <li><a href="Contact.html">Contact Us</a></li> 
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <p class="text-center">Copyright @2021 | Designed by Rydham Hansaliya</p>
+  <ul class="social_footer_ul">
+  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+</div>
+
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
